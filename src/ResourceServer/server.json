@@ -23,48 +23,67 @@
     },
     {
         "id": 4,
-        "url": "https://www.zeit.de",
-        "givenImage": "zeit.jpg"       
+        "givenImage": "zeit.jpg",
+        "language": "Language: deutsch",
+        "name": "die zeit",
+        "url": "https://www.zeit.de"
     },
     {
         "id": 5,
-        "url": "https://www.lemonde.fr",
-        "givenImage": "lemonde.jpg"       
+        "givenImage": "lemonde.jpg",
+        "language": "Language: french",
+        "name": "le monde",
+        "url": "https://www.lemonde.fr"
+               
     },
     {
         "id": 6,
-        "url": "https://www.tv5monde.com",
-        "givenImage": "tv5monde.jpg"       
+        "givenImage": "tv5monde.jpg",
+        "language": "Language: french",
+        "name": "tv5monde",
+        "url": "https://www.tv5monde.com"
     },
     {
         "id": 7,
-        "url": "https://www.reuters.com",
-        "givenImage": "reuters.jpg"       
+        "givenImage": "reuters.jpg",
+        "language": "Language: english",
+        "name": "reuters",
+        "url": "https://www.reuters.com"       
     },
     {
         "id": 8,
-        "url": "https://www.dw.com/en",
-        "givenImage": "dw.jpg"       
+        "givenImage": "dw.jpg",
+        "language": "Language: english",
+        "name": "deutsche welle",
+        "url": "https://www.dw.com/en"
     },
     {
         "id": 9,
-        "url": "https://www.monde-diplomatique.fr",
-        "givenImage": "lemondedeplomatique.jpg"       
+        "givenImage": "lemondedeplomatique.jpg",
+        "language": "Language: french",
+        "name": "le monde-deplomatique",
+        "url": "https://www.monde-diplomatique.fr"
     },
     {
         "id": 10,
-        "url": "https://www.zehabesha.com",
-        "givenImage": "habesha.jpg"       
+        "givenImage": "habesha.jpg",
+        "language": "Language: amharic",
+        "name": "ze-habesha",
+        "url": "https://www.zehabesha.com"       
     },
     {
         "id": 11,
-        "url": "https://www.mediapart.fr",
-        "givenImage": "mediapart.jpg"       
+        "givenImage": "mediapart.jpg", 
+        "language": "Language: french",
+        "name": "mediapart",
+        "url": "https://www.mediapart.fr"      
     },
     {
         "id": 12,
-        "url": "https://www.aljazeera.com",
-        "givenImage": "aljezira.jpg"       
+        "givenImage": "aljezira.jpg", 
+        "language": "Language: english",
+        "name": "aljezira",
+        "url": "https://www.aljazeera.com"      
     },
     {
         "id": 13,
@@ -73,18 +92,24 @@
     },
     {
         "id": 14,
-        "url": "http://www.waltainfo.com",
-        "givenImage": "walta.jpg"       
+        "givenImage": "walta.jpg", 
+        "language": "Language: amharic/english",
+        "name": "walta information",
+        "url": "http://www.waltainfo.com"      
     },
     {
         "id": 15,
-        "url": "https://ethionetblog.blogspot.com",
-        "givenImage": "ebc.jpg"       
+        "givenImage": "ebc.jpg",
+        "language": "Language: amharic/english",
+        "name": "ethiopian broadcasting",
+        "url": "https://ethionetblog.blogspot.com"       
     },
     {
         "id": 16,
-        "url": "https://www.courrierinternational.com/",
-        "givenImage": "courrierinter.jpg"       
+        "givenImage": "courrierinter.jpg",
+        "language": "Language: french",
+        "name": "courrier international",
+        "url": "https://www.courrierinternational.com/"       
     }
 ]
 
