@@ -10,9 +10,18 @@ class App extends Component{
     date = today.getDate() + '-' + (today.getMonth() + 1) + '-' + today.getFullYear();
    
     this.state = {
-      currentDate: date
+      currentDate: date,
+      searchWord: ''
     }
   }
+
+handleInput = (e)=>{
+  console.log(e.target.value);
+  this.setState({
+    searchWord: e.target.value
+  })
+}
+
   render(){
      
   return (
@@ -20,7 +29,7 @@ class App extends Component{
       <h2>All Medias with Integrated Server</h2>
       {/* date function on top of the page */}
         {this.state.currentDate}
-        <SearchBox />
+        <SearchBox handleInput={this.handleInput}/>
         {ServerInfo.map((item,a)=>{
           return(
             <div key={a}>
