@@ -87,8 +87,10 @@
     },
     {
         "id": 13,
-        "url": "https://www.fanabc.com",
-        "givenImage": "fana.jpg"       
+        "givenImage": "fana.jpg",
+        "language": "Language: amharic/english",
+        "name": "walta information",
+        "url": "https://www.fanabc.com"       
     },
     {
         "id": 14,

@@ -34,7 +34,7 @@ handleInput = (e)=>{
     <div className="App">
       <h2>All Medias with Integrated Server</h2>
       {/* date function on top of the page */}
-        {this.state.currentDate}
+        <p className="date">{this.state.currentDate}</p> 
         <SearchBox handleInput={this.handleInput} />
 
 {/* frame for all news */}
