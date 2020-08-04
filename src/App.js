@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
 import ServerInfo from './ResourceServer/server.json';
+import SearchBox from './component/SearchBox';
 
 class App extends Component{
-  constructor(){
-    super();
+  constructor(props){
+    super(props);
     var today = new Date(),
     date = today.getDate() + '-' + (today.getMonth() + 1) + '-' + today.getFullYear();
    
@@ -16,9 +17,10 @@ class App extends Component{
      
   return (
     <div className="App">
-      <h2>All Medias with Server</h2>
+      <h2>All Medias with Integrated Server</h2>
       {/* date function on top of the page */}
         {this.state.currentDate}
+        <SearchBox />
         {ServerInfo.map((item,a)=>{
           return(
             <div key={a}>
