@@ -112,6 +112,12 @@
         "language": "Language: french",
         "name": "courrier international",
         "url": "https://www.courrierinternational.com/"       
+    },{
+        "id": 17,
+        "givenImage": "tagesschau.jpg",
+        "language": "Language: deutsch",
+        "name": "tagesschau",
+        "url": "https://www.tagesschau.de"
     }
 ]
 

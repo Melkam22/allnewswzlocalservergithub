@@ -17,7 +17,7 @@ class App extends Component{
   }
 
 handleInput = (e)=>{
-  //console.log(e.target.value);
+  console.log(e.target.value);
   this.setState({
     searchedWord: e.target.value,
     //ServerInfo: <ServerInfo/>
