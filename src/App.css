@@ -41,5 +41,5 @@
 .mesel{
   width: 80%;
   height: 130px;
-  box-shadow: 2px 3px 4px black;
+  border: 1px dotted blue;
 }
