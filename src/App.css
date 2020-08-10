@@ -2,11 +2,10 @@
   text-align: center;
 }
 
-.mesel{
+/* .mesel{
   width: 120px;
   height: 120px;
-  box-shadow: 2px 3px 4px black;
-}
+} */
 /* from searchBox */
 .input{
   width: 40%;
@@ -42,4 +41,5 @@
 .mesel{
   width: 80%;
   height: 130px;
+  box-shadow: 2px 3px 4px black;
 }
