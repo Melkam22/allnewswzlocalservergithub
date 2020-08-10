@@ -5,6 +5,7 @@
 .mesel{
   width: 120px;
   height: 120px;
+  box-shadow: 2px 3px 4px black;
 }
 /* from searchBox */
 .input{
